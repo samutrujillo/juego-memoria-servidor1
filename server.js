@@ -71,7 +71,7 @@ const corsOptions = {
     origin: process.env.NODE_ENV === 'production'
         ? [
             process.env.CLIENT_URL || 'https://juego-memoria-cliente.onrender.com',
-            'https://juego-memoria-cliente-ug3h.onrender.com' // Añadido el nuevo dominio
+            'https://juego-memoria-cliente1.onrender.com/' // Añadido el nuevo dominio
         ]
         : ['http://localhost:3000'],
     methods: ['GET', 'POST'],
